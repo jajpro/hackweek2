@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+/* reset */ 
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, cite, code, del, dfn, em, img, ins, q, s, samp, strike,  sub, sup, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, embed {margin:0;padding:0;border:0;}
+html{overflow-y:scroll}
+html,body{width:100%;height:100%;*word-break:break-all;-ms-word-break:break-all}
+body,h1,h2,h3,h4,h5,h6,input,button,textarea,select{color:#666;line-height:1.5;font:12px "돋움",Dotum,Verdana,Arial,AppleGothic,sans-serif;}
+img,fieldset,iframe{border:0 none}
+hr,legend{position:absolute;left:-1000%;top:0;width:1px;height:1px;font-size:0;line-height:0;overflow:hidden}
+caption {width:0;height:0;visibility:hidden;line-height:0;font-size:0}
+ol, ul,li{ list-style:none;}
+input,select,button,img,textarea {vertical-align:middle}
+i,em,address{font-style:normal}
+label,button{cursor:pointer}
+button {margin:0;padding:0;border:0;background-color:transparent;cursor:pointer;}
+button *{position:relative}
+button img{left:-3px;*left:auto}
+table {border-spacing:0;width:100%;border: 0 none;border-collapse: collapse;table-layout:fixed;word-wrap:break-word;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display: block;margin: 0;padding: 0;border: 0;}
+form{text-align:left;}
+caption, th, td {text-align:left; font-weight:normal;}
+legend{*width:0}
+a { color:#666; cursor:pointer;}
+a:link,a:visited { text-decoration:none;}
+a:hover,a:active { text-decoration:none; cursor:pointer;}
+a:focus {outline: 1px dotted #a0a0a0;}
+/*common*/
+
+
+/************ header start ***************/
+
+body { background: url(image/backg.jpg); background-size: 100% 90%;}
+.header { padding-top: 10px; height: 60px; background-color: transparent; display: fixed;}
+.btnmenu { margin-left: 10px;left: 10% position: absolute;  display: fixed;}
+#btn {margin-bottom: 10px; margin-left: 10px; margin-top: 5px;  display: fixed;}
+
+.header h1 { top : 0px; font-size: 20px;  left: 36%; position: absolute; }
+.btn_quickmenu { margin-top: -32px; float: right; }
+
+
+
+.right_menu {
+	float: right;
+}
+
+.bor {
+	height: 50px; background-color: transparent;
+}
+
+.main_menu {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 35px;
+	width: 80%;
+	height: 400px;
+	background-color: transparent;
+}
+
+.col-xs-3 {
+	background-color: green;
+	padding-right: 20px;
+}
+
+#clock {
+	padding-left: 20px;
+	font-size: 20px;
+}
+
+#remaining1 {
+	background-color: orange;
+	height: 50px;
+	margin-left: 10px;
+	width: 90%;
+}
+#remaining2 {
+	background-color: orange;
+	height: 50px;
+	margin-left: 10px;
+	width: 90%;
+}
+#remaining3 {
+	background-color: orange;
+	height: 50px;
+	margin-left: 10px;
+	width: 90%;
+}
